@@ -1,0 +1,22 @@
+/* .wrapper{
+    margin: 1px 150 0px;
+} */
+.wrapper{
+    margin: 20px 150px; 
+    font-weight: 250;
+}
+
+
+.logo{
+    width: 100px;
+    height: 44px;
+}
+.logo:hover{
+background-color: var(--grey0);
+border-radius: 25px;
+}
+
+.titre{
+    color: var(--black);
+    font-weight: 550;
+}

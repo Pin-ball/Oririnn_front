@@ -1,0 +1,96 @@
+
+.wrapper {
+    height: 90%;
+    display: grid;
+    grid-template: "cards cards bookings";
+    margin: 50px 70px;
+    padding: 20px 0;
+}
+
+.cards {
+    grid-area: cards;
+    border-right: 1px solid  var(--grey1);
+}
+
+.bookings {
+    grid-area: bookings;
+    width: 400px;
+}
+
+.cards h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.bookings h3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.bookingDetails h4 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 60px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: solid 1px var(--grey0);
+    font-weight: 400;
+}
+
+.noRes {
+    display: flex;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.bookingDetails {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    padding-left: 5px;
+
+}
+
+.favoris {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 0 15px;
+    font-size: 14px;
+    width: 350px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.images {
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content {
+    font-weight: 300;
+    color: var(--black);
+}
+
+.content div {
+    margin: 2px;
+}
+
+.content div:first-child {
+    font-size: 16px;
+    font-weight: 500;
+}

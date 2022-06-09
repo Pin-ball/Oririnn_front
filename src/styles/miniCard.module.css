@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 0 15px;
+    font-size: 14px;
+    width: 300px;
+    padding: 10px;
+}
+
+.container:hover{
+    outline: 1px solid var(--grey1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container:hover .delete{
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+}
+
+.images {
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.images:hover {
+    cursor: pointer;
+    filter: grayscale(70%);
+}
+
+.content {
+    font-weight: 300;
+    color: var(--black);
+    height: 80px;
+    width: 220px;
+    justify-content: center;
+}
+
+.content div {
+    margin: 2px;
+}
+
+.content div:first-child {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .delete {
+    visibility: hidden;
+    border: none;
+    background-color: white;
+    margin-top: -58px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-weight: 500;
+    padding: 0 2px 2px 2px;
+}
+
+.container .delete:hover {
+    background-color:  var(--red);
+    color: white;
+}

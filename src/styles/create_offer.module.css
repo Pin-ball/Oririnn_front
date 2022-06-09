@@ -1,0 +1,236 @@
+.body {
+    margin: 20px;
+    margin-top: 80px;
+    border-radius: 8px;
+    font-style: normal;
+    padding:  0px 20px;
+}
+
+.preview {
+    width: 240px;
+}
+
+.date input {
+    height: 30px;
+    width: 120px;
+    border: solid 1px rgb(204, 200, 200);
+    border-radius: 10px;
+}
+
+.photo img,
+.photo input[type=file] {
+    height: 100px;
+    width: 100px;
+}
+
+.photo input[type=file] {
+    opacity: 0;
+    margin: 32px 0 0 32px;
+    position: absolute;
+}
+
+.photo img {
+    border-radius: 6px;
+    border: solid 1px rgb(204, 200, 200);
+    background-image: url("../../public/icon/plus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    margin: 30px;
+}
+
+.head input {
+    height: 25px;
+    width: 300px;
+    border: solid 1px rgb(204, 200, 200);
+    border-radius: 4px;
+}
+
+.roomBlock ul {
+    padding: 0;
+}
+
+.roomBlock li {
+    display: inline-block;
+    padding: 7px 12px;
+    margin: 0 5px;
+    border-radius: 50px;
+    border: solid 1px var(--grey1);
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.roomBlock li:hover {
+    border: solid 1px var(--black);
+    transition: 0.2s;
+}
+
+.roomBlock li:active {
+    scale: 0.9;
+    transition: 0.2s;
+}
+
+.roomBlock .black {
+    background-color: var(--black);
+    ;
+}
+
+/* options filter */
+.optionsBlock .sub {
+    margin: 30px 0 10px 0;
+}
+
+.photos {
+    margin-left: 74px;
+    margin-top: -30px
+}
+
+.images {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    border-bottom: solid 1px var(--grey1);
+    margin: 30px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.choosen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    /* background-color: red; */
+    height: 360px;
+}
+.create_button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: solid 1px var(--grey1);
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.price input {
+    height: 25px;
+    width: 500px;
+    border: solid 1px rgb(204, 200, 200);
+    border-radius: 4px;
+
+}
+
+/* options filter */
+.optionsBlock .sub {
+    margin: 30px 0 10px 0;
+}
+
+.optiondeux {
+    margin-top: 34px;
+    /* background-color: red; */
+
+}
+.optionsBlock .options {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.optionsBlock label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.optionsBlock label:hover .checkbox {
+    border: solid 1px var(--black);
+}
+
+input[type="checkbox"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    /* position: absolute; */
+    white-space: nowrap;
+    width: 1px;
+}
+
+.checkbox {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: var(--white);
+    border-radius: 5px;
+    border: solid 1px var(--grey2);
+    margin: 10px 10px 10px 0;
+}
+
+.checkboxActive {
+    background-image: url("../../public/icon/checkmark.svg");
+    background-size: 30px 30px;
+    background-position: center;
+    border-color: var(--black);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+
+}
+
+.description {
+    margin-left: -100px;
+}
+
+.description textarea {
+    border: solid 1px rgb(204, 200, 200);
+}
+
+.checkbox input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 4px;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border: 1px solid grey;
+
+}
+
+input[type="checkbox"]:checked {
+    background: black;
+}
+
+.caract {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.block input {
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(220, 214, 214);
+    width: 60px;
+    justify-content: center;
+}
+
+.create {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 40px;
+}
+
+.equipement {
+    margin: 60px;
+}

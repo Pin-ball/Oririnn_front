@@ -1,0 +1,39 @@
+.container {
+    z-index: 1000;
+    width: 240px;
+    padding: 10px 0;
+    position: fixed;
+    top: 63px;
+    right: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    background-color: var(--white);
+    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.1));
+    overflow: hidden;
+}
+
+.container a {
+    display: block;
+    padding: 15px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.btn {
+    padding: 15px;
+}
+
+.container a:hover,
+.btn:hover {
+    background-color: var(--grey0);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.container .line {
+    content: "";
+    border-bottom: solid 1px var(--grey1);
+}

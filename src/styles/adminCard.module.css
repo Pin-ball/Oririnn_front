@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px 0 15px;
+    font-size: 14px;
+    width: 350px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.images {
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content {
+    font-weight: 300;
+    color: var(--black);
+}
+
+.content div {
+    margin: 2px;
+}
+
+.content div:first-child {
+    font-size: 16px;
+    font-weight: 500;
+}
+.delete { 
+    border: solid 1px var(--grey1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px;
+    /* height: 12px; */
+    width: 30px;
+}
+
+.delete:hover {
+    background-color: rgb(227, 20, 34);
+}
+.approuve { 
+    border: solid 1px var(--grey1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px;
+    /* height: 12px; */
+    width: 30px;
+}
+
+.approuve:hover { 
+    background-color: rgb(39, 120, 60) ;
+}

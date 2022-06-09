@@ -1,0 +1,80 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 65px 1fr 30px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+.bodyAll {
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.cardsAll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.map {
+  border-left: solid 1px var(--grey0);
+}
+
+.map iframe {
+  border: none;
+}
+
+.btnMap {
+  flex: none;
+  position: sticky;
+  left: 10px;
+  bottom: 10px;
+  background-color: var(--fullblack);
+  color: var(--white);
+  padding: 13px 20px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  margin: 0 45%;
+  max-height: 45px;
+}
+
+.btnMap:hover {
+  scale: 1.05;
+  transition: 0.3s;
+}
+
+.btnMap svg {
+  margin-left: 10px;
+}
+
+.footer {
+  padding: 8px 20px 0 40px;
+  font-size: 12px;
+}
+
+.footer a{
+  color: var(--black);
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

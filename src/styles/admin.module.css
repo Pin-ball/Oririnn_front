@@ -1,0 +1,146 @@
+.wrapper {
+    width: 90%;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+  
+  .wrapper h3 {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .wrapper .container {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0px auto 30px auto;
+    max-width: 100%;
+    border: solid 1px var(--grey0);
+    background-color: white;
+    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.05));
+  }
+  
+  .wrapper table {
+    table-layout: fixed;
+    width: 100%;
+    margin: -5px auto;
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    border-spacing: 0px 3px;
+  }
+
+  .wrapper thead {
+    background-color: var(--grey0);
+  }
+  
+  .wrapper tbody {
+    margin-bottom: 10px;
+  }
+  
+  .wrapper tbody tr {
+    background-color: var(--bgWhite);
+    color: var(--black);
+    font-size: 14px;
+  }
+  
+  .wrapper .see tbody tr:hover {
+    box-shadow: inset 3px 0px 0px 0px var(--blue3);
+    background-color: transparent;
+    color: var(--textBlack);
+  }
+  
+  .wrapper tbody tr:hover button {
+    visibility: visible;
+  }
+  
+  .wrapper th,
+  .wrapper td {
+    padding: 10px 15px;
+    overflow: auto;
+    text-overflow: ellipsis;
+  }
+  
+  .list li:hover {
+    border: solid 1px var(--black);
+    transition: 0.2s;
+}
+
+.list li {
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: solid 1px var(--grey1);
+  font-size: 12px;
+  transition: 0.2s;
+}
+  
+.wrapper .button {
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 8px;
+  border: solid 1px var(--grey1);
+  background-color: white;
+}
+
+/* .create button {
+    margin: 0 10px;
+    width: 200px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: solid 1px var(--grey1);
+    background-color: white;
+  } */
+  .wrapper ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper .button:hover{
+    background-color: var(--grey1);
+  }
+  
+  .wrapper .see input {
+    border: none;
+    background-color: var(--grey0);
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+  }
+  
+  .wrapper .create input {
+      background-color:  var(--grey0);
+      border: none;
+      padding: 5px;
+      border-radius: 5px;
+      width: 95%;
+  }
+  
+  .wrapper label {
+    margin: 5px 25px 0 5px;
+  }
+  
+  .wrapper tr input{
+    border: solid 1px rgb(223, 215, 215);
+    border-radius: 15px;
+    width: 90%;
+  }
+
+  .wrapper .radio{
+    display: flex;
+  }
+  .wrapper .editing{
+    padding: 5px;
+    width: 40px;
+  }
+  .wrapper .radio input{
+    width: 20px;
+  }
+
+  .btn { 
+    border : none;
+    background-color: red;
+  }
+  
+  

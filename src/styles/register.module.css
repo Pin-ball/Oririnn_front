@@ -1,0 +1,96 @@
+.logo {
+  position: sticky;
+  top: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  padding: 2px 0;
+  border-radius: 25px;
+}
+
+.logo:hover {
+  background-color: var(--grey0);
+}
+
+.container {
+  font-weight: 300;
+  max-width: 350px;
+  margin: -40px auto;
+  padding: 30px 40px 5px 40px;
+  border: dotted 2px var(--red);
+  border-radius: 20px;
+  background-color: var(--white);
+  color: var(--textBlack);
+}
+
+.container h1 {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  margin-bottom: 50px;
+}
+
+.container label,
+.container .error {
+  display: block;
+  text-align: left;
+  font-size: 10px;
+}
+
+.container label {
+  margin: 30px 0 5px 5px;
+
+}
+
+.error {
+  margin: 5px 0 -17px 5px;
+  color: var(--red);
+}
+
+.container input {
+  width: 90%;
+  background: none;
+  border: solid 1px var(--grey2);
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.container input:focus {
+  outline: solid 1.5px var(--red);
+  border: solid 1px transparent;
+}
+
+.container .btn {
+  display: block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--red);
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container .btn:hover {
+  background-color: var(--redOver);
+}
+
+.container .more {
+  text-align: left;
+  font-size: 12px;
+}
+
+ .more .link {
+  color: var(--black);
+}
+
+ .more .link:hover {
+  color: var(--red);
+}
+
+.errorLogin{
+  display: flex;
+  justify-content: center;
+  color: var(--red);
+}
