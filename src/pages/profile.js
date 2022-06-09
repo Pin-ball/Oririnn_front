@@ -157,28 +157,6 @@ function UserProfile() {
         fetch(`${URL_API}user/${decoded.id}`, requestOptions);
     }
 
-    const test = async () => {
-        console.log("GET TEST");
-
-        var myHeaders = new Headers();
-        myHeaders.append("Content-Type", "application/json");
-        myHeaders.append("Authorization", "Bearer " + token)
-        var requestOptions = {
-            method: 'GET',
-            headers: myHeaders,
-            redirect: 'follow'
-        };  
-        const response = await fetch(`/user/${decoded.id}`, requestOptions);
-        console.log("RES ", response);
-        // console.log("RES LOCK", response.releaseLock());
-        // console.log("RES LOCK ?", response);
-        // response.releaseLock()
-        // console.log("RES LOCK ? still ?", response);
-        
-        // const json = await response.json();
-        // console.log("RES JSON", json);
-    }
-
     return (
         <>
             <div>
@@ -186,9 +164,6 @@ function UserProfile() {
             </div>
 
             <div className={styles.userPage}>
-
-                <button onClick={()=> test()}>GET HERE BROOOO</button>
-
                 <div className={styles.container}>
                     <h4 onClick={() => dispatch({type: 'profile'})}>INFORMATIONS PERSONNELLES
                         <button className={ state.toggleProfile ? styles.rotateTrue : styles.rotateFalse }> &gt;</button>
