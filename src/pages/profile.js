@@ -124,7 +124,7 @@ function UserProfile() {
                 headers: myHeaders,
                 redirect: 'follow'
             };  
-            const response = await fetch(`/user/${decoded.id}`, requestOptions);
+            const response = await fetch(`${URL_API}user/${decoded.id}`, requestOptions);
             const json = await response.json();
             dispatch({type: "setUser", fetchUser: json})  
         }
