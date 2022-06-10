@@ -28,10 +28,14 @@ function Home() {
 
   // RENDER
   if (error) {
-    return ("ERROR ...")
+    return ( <><Navbar></Navbar>
+      <div>Désolé, il semble qu'une erreur se soit produite...<br/>Merci de réessayer plus tard.</div></>)
+
   }
   else if (!data) {
-    return ("LOADING ...")
+    return ( <><Navbar></Navbar>
+      <div>Chargement ...</div></>)
+
   }
 
   return (

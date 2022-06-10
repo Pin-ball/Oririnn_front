@@ -35,7 +35,7 @@ function Result() {
     let display = []
 
     if (error) {
-      display.push(<div key="error" style={{textAlign:"center"}}><br/>Désolé, il semble qu'une erreur se soit produite...<br/>Merci de réessayer plus tard</div>)
+      display.push(<div key="error" style={{textAlign:"center"}}><br/>Désolé, il semble qu'une erreur se soit produite...<br/>Merci de réessayer plus tard.</div>)
     }
     else if (!data) {
       display.push(<div key="loading" style={{textAlign:"center"}}><br/>Chargement ...</div>)
