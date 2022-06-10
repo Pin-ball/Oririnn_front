@@ -4,18 +4,18 @@ import styles from '../styles/fonctionnement.module.css'
 export default function FonctionnementSite () {
     return (
         <>
-         <nav>
-        <div className={styles.emplacementLogo}>
-            <Link to={"/"}>
-                <img
-                    className={styles.logo}
-                    src={"/icon/castle.svg"}
-                    alt="oririnn logo" 
-                />
-            </Link>
-        </div>
+        <nav>
+            <div className={styles.emplacementLogo}>
+                <Link to={"/"}>
+                    <img
+                        className={styles.logo}
+                        src={"/icon/castle.svg"}
+                        alt="oririnn logo" 
+                    />
+                </Link>
+            </div>
         </nav>
-            <body>
+            <div>
                 <div className={styles.wrapper}>
                 <div className={styles.titre}>Fonctionnement du site</div>  <br></br> <br></br>
                     <div className={styles.titre}>QU'EST-CE QUE ORIRINN?</div> <br></br>             
@@ -56,7 +56,7 @@ export default function FonctionnementSite () {
 
                         
                     </div>
-            </body>
+            </div>
         
         </>
     );
